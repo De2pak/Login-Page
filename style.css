@@ -36,9 +36,9 @@ main {
   width: 70vw;
   height: 60vh;
   /* border: 1px solid black; */
-  box-shadow: 5px 5px 5px 5px gray;
+  box-shadow: 5px 5px 5px 5px whitesmoke;
 }
-  
+
 .head {
   display: flex;
   justify-content: space-between;
@@ -47,11 +47,10 @@ main {
   padding-top: 1rem;
 }
 .cards {
-    display: flex;
-    height: 100%;
-    width: 100%;
-
-  }
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
 .card1 {
   height: 100%;
   width: 50%;
@@ -71,8 +70,8 @@ main {
   padding-left: 1rem;
   padding-top: 1rem;
 }
-#section2{
-    margin-top: 2rem;
+#section2 {
+  margin-top: 2rem;
 }
 #section2 input {
   height: 2rem;
@@ -80,32 +79,30 @@ main {
   margin-left: 1rem;
   margin-top: 1rem;
 }
-#section3{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 3rem;
-    padding-left: 2rem;
-    padding-top: 2rem;
-
+#section3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
 }
-#section3 button{
-    width: 10rem;
-    height: 2.5rem;
-    border-radius: 2rem;
-    background-color: darkviolet;
-    color: white;
-    outline: none;
+#section3 button {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  background-color: darkviolet;
+  color: white;
+  outline: none;
 }
-#section4{
-    display: flex;
-    gap: 2rem;
-    padding-left: 1rem;
-    padding-top: 2rem;
-    align-items: center;
+#section4 {
+  display: flex;
+  gap: 2rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  align-items: center;
 }
-#section4 img{
-    width: 3rem;
-    border-radius: 50%;
-
+#section4 img {
+  width: 3rem;
+  border-radius: 50%;
 }
